@@ -1,0 +1,391 @@
+/* stil till body */
+body {
+    background-color: #161c10;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Stil för länkar */
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* det ser ut mer som en länk*/
+}
+
+/* Stil för formulär */
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -60px;
+    text-align: center;
+    color: #c99585;
+    font-size: 3em;
+}
+
+
+/* container som innehåller formulär */
+.container {
+    width: 500px;
+    height: 520px;
+    background-color: #8c9d75;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* allt ska ligga i mitten av container */
+.form {
+    text-align: center; 
+    margin : 0 auto;
+    padding: 20px;
+}
+
+input {
+    padding-bottom: 0.8em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    margin-top: 0.3em;
+    background-color: #dae9c5;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+    font-style: italic;
+    font-size: 1em;
+    padding-top: 10px;
+    margin-left: 30%;
+
+}
+
+
+input.placeholder {
+    text-align: center;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* design för lägga till knappen */
+button {
+    width: 150px;
+    height: 2em;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+    background-color: #dbc9ab;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.addBtn{
+    margin-bottom: 30px;
+    margin-left: 32%;
+}
+
+button:hover {
+    width: 170px;
+    height: 2.2em;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.pageBtn {
+    text-decoration: none; 
+    color: black;
+    margin : 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* knappar till andra sidor */
+.Btn {    
+    width: 180px;
+    height: 4em;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+    background-color: #dbc9ab;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Btn:hover {
+    width: 190px;
+    height: 4.1em;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.pages {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* container till sidan som innehåller kurserna */
+.containerCourses {
+    width: 500px;
+    background-color: #8c9d75;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 1px solid grey;
+}
+
+.infoCourse {
+    text-align: center;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+/* till varje info har jag en special css kod */
+.courseCode {
+    color: #161c10;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.courseName {
+    color: #161c10; 
+    margin-top: -3px;
+    margin-bottom: 2px;
+    font-size: 22px;
+}
+
+.progression {
+    font-size: 22px;
+    color: #161c10; 
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.syllabus {
+    font-size: 22px;
+    color: #161c10; 
+    margin-top: -3px;
+    margin-bottom: 2px;
+    font-style: italic;
+}
+
+/* radera knappen */
+.raderaBtn {
+    width: 150px;
+    height: 2.5em;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.9);
+    background-color: #dbc9ab;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.raderaBtn:hover {
+    width: 160px;
+    height: 2.7em;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+/* sista sidan */
+.omText {
+    margin: 0 auto;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 25px;
+    color: #161c10; 
+}
+h2{
+    margin-left: 30%;
+    padding-top: 20px;
+}
+
+/* stila responsiv design för mobila enheter */
+@media screen and (max-width: 600px ) {
+    h1 {
+        margin-top: 50px;
+        font-size: 1.8em;
+    }
+    
+    h1:hover {
+        font-size: 2em;
+    }
+    
+    .container {
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    input {
+        padding-bottom: 0.5em;
+        margin-bottom: 1.5em;
+        font-size: 0.8em;
+        padding-top: 10px;
+    }
+    
+    label {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    
+    button {
+        width: 100px;
+        height: 2.7em;
+        border-radius: 8px;
+        font-size: 0.8em;
+    }
+    
+    button:hover {
+        width: 110px;
+        height: 2.9em;
+        font-size: 1em;
+    }
+    
+    .pages {
+        width: 420px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+
+    
+    .containerCourses {
+        width: 300px;
+        margin-top: 90px;
+    }
+    
+    .courseCode {
+        margin: 5px;
+        font-size: 24px;
+    }
+    
+    .courseName {
+        font-size: 18px;
+    }
+    
+    .progression {
+        font-size: 18px;
+    }
+    
+    .syllabus {
+        font-size: 18px;
+    }
+    
+    .raderaBtn {
+        width: 100px;
+        height: 2em;
+        font-size: 1em;
+    }
+    
+    .raderaBtn:hover {
+        width: 110px;
+        height: 2.2em;
+        font-size: 1.2em;
+    }
+    
+    .omText {
+        font-size: 18px;
+    }
+}
+
+/* stila responsiv design för surfplattor enheter */
+@media screen and (min-width: 600px) and (max-width: 780px) {
+    h1 {
+        margin-top: 50px;
+        font-size: 2em;
+    }
+    
+    h1:hover {
+        font-size: 2.3em;
+    }
+    
+    .container {
+        width: 400px;
+    }
+    
+    input {
+        padding-bottom: 0.7em;
+        margin-bottom: 1.8em;
+        font-size: 0.9em;
+        padding-top: 15px;
+    }
+    
+
+    label {
+        font-size: 1.4em;
+    }
+    
+
+    button:hover {
+        width: 160px;
+        height: 2.5em;
+        font-size: 1em;
+    }
+    
+    .pages {
+        width: 550px;
+        margin-top: 40px;    
+    }
+    
+
+    .containerCourses {
+        width: 400px;
+        margin-top: 90px;
+    }
+    
+    .courseCode {
+        font-size: 26px;
+    }
+    
+    .courseName {
+        font-size: 20px;
+    }
+    
+    .progression {
+        font-size: 20px;
+    }
+    
+    .syllabus {
+        font-size: 20px;
+    }
+    
+    .raderaBtn {
+        width: 120px;
+        height: 2.3em;
+        font-size: 1.2em;
+    }
+    
+    .raderaBtn:hover {
+        width: 130px;
+        height: 2.4em;
+        font-size: 1.4em;
+    }
+    
+    .omText {
+        font-size: 22px;
+    }
+}

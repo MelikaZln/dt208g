@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa, redigera och lägg till kurser</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Visa, redigera och lägg till kurser</h1>
+    <div class="containerCourses"> 
+        <ul id="courseList">
+            <!-- Kursinformation läggs till här med JavaScript -->
+        </ul>
+    </div>
+    <!-- Formulär för att redigera befintliga kurser -->
+    <div id="editCourseForm" class="container hidden">
+        <h2>Redigera kurs</h2>
+        <form id="editForm">
+            <input type="text" id="editCode" placeholder="Kurskod" required><br>
+            <input type="text" id="editName" placeholder="Kursnamn" required><br>
+            <input type="text" id="editProgression" placeholder="Progression" required><br>
+            <input type="text" id="editSyllabus" placeholder="Syllabus"><br>
+            <input type="hidden" id="editCourseId">
+            <button type="button" class="addBtn" onclick="saveEditedCourse()">Spara kurs</button>
+            <button type="button" class="addBtn" onclick="cancelEdit()">Avbryt</button>
+        </form>
+    </div>
+
+    <!-- Formulär för att lägga till nya kurser -->
+    <div id="addCourseForm" class="container hidden">
+        <h2>Lägg till ny kurs</h2>
+        <form id="addForm">
+            <input type="text" id="code" placeholder="Kurskod" required><br>
+            <input type="text" id="name" placeholder="Kursnamn" required><br>
+            <input type="text" id="progression" placeholder="Progression" required><br>
+            <input type="text" id="syllabus" placeholder="Syllabus"><br>
+            <button type="button" class="addBtn" onclick="addCourse()">Lägg till kurs</button>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

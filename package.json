@@ -1,0 +1,21 @@
+{
+    "name": "moment1",
+    "version": "1.0.0",
+    "description": "uppgift till moment 1",
+    "main": "script.js",
+    "scripts": {
+      "start": "node script.js",
+      "test": "echo \"Testkommando här\""
+    },
+    "keywords": [],
+    "author": "Ditt namn",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^4.5.4"
+    },
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom", "es2015"]
+    }
+  }
+  
