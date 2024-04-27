@@ -8,7 +8,7 @@
       "test": "echo \"Testkommando här\""
     },
     "keywords": [],
-    "author": "Ditt namn",
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "typescript": "^4.5.4"
